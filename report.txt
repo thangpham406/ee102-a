@@ -16,3 +16,22 @@ Based on the provided summary statistics for the training and test data, here ar
 - The slight increase in PE's variance and standard deviation in the test data suggests a marginally wider spread of values, which should be considered during model training to ensure robustness.
 - Overall, the training and test datasets appear well balanced and representative of the overall data characteristics, suggesting that a model trained on this data should perform reliably on unseen data.
 
+# Save the plot as a PNG file
+
+
+
+AT vs PE: There is a strong negative correlation. As AT increases, PE decreases, suggesting that higher ambient temperatures lead to lower power output, perhaps due to increased efficiency.
+
+V vs PE: A similar negative correlation is observed here, indicating that with higher exhaust vacuum levels, the power output tends to decrease.
+
+AP vs PE: The correlation is less distinct, but there appears to be a slight positive correlation, where higher ambient pressure correlates with higher power output.
+
+RH vs PE: There is no clear linear correlation; however, there appears to be a slight trend where extreme values of RH correspond to higher power output.
+
+Distributions:
+
+AT: Shows a somewhat bimodal distribution, suggesting two common temperature ranges.
+V: Appears multimodal, indicating several common vacuum levels.
+AP: Normal-like distribution, slightly right-skewed, indicating that most ambient pressure readings are high with some lower values.
+RH: Shows a fairly uniform distribution with a slight increase towards higher humidity levels.
+PE: Appears slightly right-skewed, suggesting that higher power output is less common.
